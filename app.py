@@ -9,7 +9,7 @@ from dotenv import load_dotenv  #pip install python-dotenv
 class Questions:
     def __init__(self,root):
         self.root=root
-        self.root.title("Questions and Answers") #title
+        self.root.title("Questions & Answers") #title
         self.root.geometry("500x400")  #size of window
         self.root.iconbitmap("logo41.ico")  #adding icon on window
         self.root.resizable(0,0)    #no resizing of window
